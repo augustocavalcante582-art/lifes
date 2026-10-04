@@ -1,0 +1,16 @@
+{
+  "name": "life-store",
+  "version": "0.1.0",
+  "description": "Life - protótipo de loja e biblioteca de jogos para desktop",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "server": "node server.js",
+    "test": "node test/api.test.js",
+    "web": "node server.js"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}
